@@ -20,8 +20,8 @@ from sklearn.linear_model import SGDClassifier
 
 from hello.text_preprocessing import data_clean
 
-FB_MESSENGER_ACCESS_TOKEN = "EAARPLZAbKqZC4BAMQUcDK80sxMzUmHQ3w5ZC7ZCBHcv0z34DVF4yBKM52YVdDp3dxmg8bdt5nYxR83j6ZBfol9KsUSv73FusDC4SJe6jMsl47aUYmCTMLa1CJxjwUyRdmIJ8qZBTN4i2BHm18UbzIUsjPvRoeuz2F5RQ92dXRuAwZDZD"
-api_key = '675805359a37619b0e34b72ee0197d5f'
+FB_MESSENGER_ACCESS_TOKEN = "Your token"
+api_key = 'Your key'
 
 with open('gettingstarted/staticfiles/wiki_links.json', 'r') as f:
     wiki_links = json.load(f)
